@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멍냥랜드</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+<link rel="icon" href="./images/favicon-16x16.png">
+<script src="./script/jquery-1.11.3.min.js"></script>
+<script src="./script/jquery.innerfade.js"></script>
+<script>
+    $(function () {
+            
+            
+            $('.slideList').innerfade({
+                animationtype: 'fade',
+                timeout: 2000
+            })
+        });
+</script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <ul>
+                <li><a href="#">신상품</a></li>
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">샘플체험</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">스티커샵</a></li>
+            </ul>
+            <p>함께하는 반려생활<br>
+            멍냥랜드</p>
+        </header>
+        <main>
+            <ul class="mainmenu">
+                <li><a href="#"><img src="./images/간식.svg" alt="간식">간식</a></li>
+                <li><a href="#"><img src="./images/사료.svg" alt="사료">사료</a></li>
+                <li><a href="#"><img src="./images/핫딜.svg" alt="핫딜">핫딜</a></li>
+                <li><a href="#"><img src="./images/건강.svg" alt="건강관리">건강관리</a></li>
+                <li><a href="#"><img src="./images/신제품.svg" alt="신상품">신상품</a></li>
+            </ul>
+            <div class="slide">
+                <div class="slideList">
+                    <div class="slideImg"><a href="#"><img src="./images/메인배너.jpg" alt="배너1"></a></div>
+                    <div class="slideImg"><a href="#"><img src="./images/메인배너2.jpg" alt="배너2"></a></div>
+                    <div class="slideImg"><a href="#"><img src="./images/메인배너3.jpg" alt="배너3"></a></div>
+                </div>
+            </div>
+            <p>493+ 국내 최대 브랜드 보유!</p>
+            <ul class="main2menu">
+                <li><img src="./images/naturalcore_A_w.png" alt="네츄럴코어"></li>
+                <li><img src="./images/로얄.jpg" alt="로얄캐닌"></li>
+                <li><img src="./images/하림.jpg" alt="하림"></li>
+                <li><img src="./images/now_A_w.png" alt="나우"></li>
+                <li><img src="./images/펫.jpg" alt="페스룸"></li>
+            </ul>
+        </main>
+        <footer>
+            <p>
+                (주)퍼피랜드 | 대표이사 신정민 | 사업자등록번호 123-123-1234<br>
+                강아지 귀여로 172 pp빌딩 | 대표전화 12.345.6789 | FAX 12.345.6789</p>
+                <ul>
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                    <li>가맹점 전용 페이지</li>
+                </ul>
+                
+                       
+        </footer>
+    </div>
+</body>
+
+</html>
